@@ -1,0 +1,24 @@
+<div class="text-center">
+  <h3>Counter</h3>
+  <h5>{{ counter | async }}</h5>
+</div>
+<div class="flex flex-row gap-1 justify-center mt-2">
+  <button
+    type="button"
+    class="py-2 px-4 bg-purple-600 text-white rounded-sm hover:bg-purple-800 transition-all"
+    (click)="multiply()"
+  >
+    multiply
+  </button>
+  <button
+    type="button"
+    class="py-2 px-4 bg-orange-600 text-white rounded-sm hover:bg-orange-800 transition-all"
+    (click)="divide()"
+  >
+    Divide
+  </button>
+</div>
+
+<hr class="my-4">
+
+<app-nieto></app-nieto>
